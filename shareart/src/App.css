@@ -1,0 +1,758 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Login and Registration Page */
+.logreg {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 96px;
+}
+.h1title {
+  text-align: center;
+  font-family: "Fredericka the Great", cursive;
+  margin-top: 14px;
+  margin-bottom: -51px;
+  font-size: 100px;
+  color: white;
+}
+.h1title + p {
+  font-family: "Parisienne", cursive;
+  text-align: center;
+  margin-top: 51px;
+  font-size: xx-large;
+}
+/*small*/
+@media screen and (max-width: 600px) {
+  .h1title {
+    font-size: 50px;
+  }
+
+  label.form-label {
+    font-size: medium;
+  }
+  .formLogin {
+    padding: 0px;
+  }
+  .regform {
+    padding: 0px;
+  }
+}
+.formLogin {
+  padding: 46px;
+  border-radius: 32px;
+  font-family: "Fredericka the Great", cursive;
+  font-size: xx-large;
+  background-color: black;
+  border: 1px solid #99978b;
+
+  animation-fill-mode: forwards;
+}
+.formLogin img {
+  width: 110px;
+}
+.regform img {
+  width: 110px;
+}
+
+.regform {
+  padding: 46px;
+  border-radius: 32px;
+  font-family: "Fredericka the Great", cursive;
+  font-size: xx-large;
+  background-color: black;
+  border: 1px solid #99978b;
+
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+body {
+  background: white;
+}
+.butt {
+  background: black;
+  border-color: white;
+  font-family: "Fredericka the Great", cursive;
+  color: white;
+}
+.butt:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+body {
+  background-image: url("./Sara_Di_Luca_audrey_hepburn_silouette_black_background_silence__f916e227-4037-4d98-8256-906d7503ac03.png");
+  background-color: black;
+  background-position: 0px -211px;
+  color: #99978b;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+footer {
+  background-color: black;
+}
+/*small*/
+@media screen and (max-width: 425px) {
+  .logreg {
+    display: flex;
+    text-align: center;
+    margin-top: 60px;
+    flex-direction: column;
+  }
+  .formLogin {
+    padding: 46px;
+    border-radius: 32px;
+    font-family: "Fredericka the Great", cursive;
+    font-size: xx-large;
+    background-color: black;
+    margin-top: 11px;
+    border: 1px solid #00000030;
+  }
+  body {
+    background-color: white;
+    background-image: none;
+  }
+}
+/*medi*/
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .regform {
+    height: 373px;
+    padding: 27px;
+    border-radius: 32px;
+    font-family: "Fredericka the Great", cursive;
+    font-size: small;
+    background-color: #00000069;
+    border: 1px solid #00000030;
+  }
+  .formLogin {
+    height: 373px;
+    padding: 27px;
+    border-radius: 32px;
+    font-family: "Fredericka the Great", cursive;
+    font-size: small;
+    background-color: #00000069;
+    border: 1px solid #00000030;
+  }
+  .logreg {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 24px;
+  }
+  body {
+    background-position: 0px 200px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    background-position: 0px 100px;
+  }
+  .logreg {
+    margin-top: 26px;
+  }
+}
+.SLOGAN {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+/*Area riservata*/
+body.authenticated {
+  background-color: white;
+  background-image: none;
+}
+.benvenuto {
+  font-family: "Fredericka the Great", cursive;
+  margin-top: 5px;
+  font-size: larger;
+  margin-right: 17px;
+}
+.benvenuto b {
+  color: red;
+}
+.b {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 17px;
+}
+.navbarhome a {
+  font-family: "Fredericka the Great", cursive;
+  color: white;
+}
+.navbarhome button {
+  margin-right: 28px;
+}
+.navbarhome img {
+  width: 80px;
+}
+.navbarhome {
+  height: 100px;
+}
+.navbarhome button {
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  font-family: "Fredericka the Great", cursive;
+}
+.scopodelsito p {
+  margin-top: 10px;
+  font-family: "Marck Script", cursive;
+  text-align: center;
+  font-size: medium;
+}
+.sloghome {
+  font-family: "Fredericka the Great", cursive;
+  text-align: center;
+  margin-top: 46px;
+  color: black;
+}
+.creapost {
+  text-align: center;
+  font-family: "Fredericka the Great", cursive;
+  color: BLACK;
+  margin-left: 318px;
+  margin-right: 318px;
+  border: 1px solid black;
+
+  margin-top: 61px;
+}
+.creapost button {
+  margin-top: 28px;
+  margin-bottom: 58px;
+  background-image: url("./inchiostro-spot.jpg");
+  background-position: bottom;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.creapost h2 {
+  margin-top: -40px;
+}
+.creapost img {
+  width: 111px;
+  margin-top: 1px;
+}
+.scopodelsito a {
+  color: black;
+}
+.posted {
+  text-align: center;
+  margin-top: 75px;
+}
+.post {
+  border: 1px solid black;
+  margin-left: 318px;
+  margin-right: 318px;
+  margin-top: 21px;
+  border-radius: 23px;
+}
+.postimage img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 31px;
+
+  border-radius: 59px;
+}
+.commentarea {
+  text-align: center;
+}
+.post p {
+  font-family: "Zeyada", cursive;
+  color: black;
+  font-size: xx-large;
+}
+.post button {
+  margin-top: 20px;
+  background: black;
+  border: 1px solid white;
+  font-family: "Fredericka the Great", cursive;
+  font-size: small;
+}
+.post h2 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: small;
+  color: black;
+}
+.francobollodiv {
+  width: 115px;
+}
+.franc {
+  max-width: 100%;
+  margin: 0px;
+  max-height: 100%;
+}
+
+.inspirationpage {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+.inspirationpage h2 {
+  font-family: "Fredericka the Great", cursive;
+  color: black;
+  text-align: center;
+  margin-top: 46px;
+  font-size: xxx-large;
+}
+.inspirationpage p {
+  font-family: "Marck Script", cursive;
+  text-align: center;
+  font-size: larger;
+}
+.colorartist {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.colorartist select {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 60px;
+}
+.colorartist button {
+  background: #000000a8;
+  color: white;
+  border: 1px solid white;
+  border-radius: 60px;
+  padding: 5px;
+}
+.Artistascelto {
+  text-align: center;
+  margin-top: 33px;
+}
+.frasescelta {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.Artistascelto div {
+  contain: content;
+}
+.cinema-page {
+  background-image: none;
+  background-color: black;
+
+  font-family: "Imbue", serif;
+
+  text-align: center;
+}
+.cinema-page h2 {
+  margin-top: 140px;
+  font-size: xxx-large;
+  color: black;
+}
+.imgpc {
+  margin-left: 269px;
+  margin-top: 5px;
+}
+
+.messaggi-container img {
+  width: 300px;
+}
+.chat-component h2 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 71px;
+}
+.chat-component p {
+  font-family: "Marck Script", cursive;
+  text-align: center;
+  font-size: larger;
+}
+.messaggi-container {
+  margin-top: 84px;
+
+  text-align: center;
+}
+.messaggio.sistema {
+  border: 1px solid black;
+  margin-left: 486px;
+  margin-right: 486px;
+  border-radius: 30px;
+}
+.messaggio.sistema p {
+  margin-top: 18px;
+}
+.messaggio.utente {
+  border: 1px solid black;
+  margin-left: 486px;
+  margin-right: 486px;
+  border-radius: 30px;
+  background-color: #66666647;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.frase {
+  color: #666666fc;
+  font-family: "Square Peg", cursive !important;
+
+  font-size: xx-large !important;
+  padding: 10px;
+}
+.chat-component input {
+  border-radius: 1px solid black;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 321px;
+  margin-right: 40px;
+  height: 42px;
+}
+
+.artista {
+  font-family: "Bruno Ace SC", cursive !important;
+}
+.sistema {
+  margin-top: 10px;
+}
+p.artista {
+  margin-top: 10px;
+}
+.musicpage {
+  min-height: 100vw;
+  min-width: 100vw;
+  background-color: white;
+}
+.musicpage h1 {
+  font-family: "Fredericka the Great", cursive;
+  color: black;
+  text-align: center;
+  margin-top: 46px;
+  font-size: 80px;
+  margin-bottom: 56px;
+}
+.musicinput {
+  gap: 13px;
+  display: flex;
+  justify-content: center;
+  font-family: "Fredericka the Great", cursive;
+}
+.musicinput input {
+  width: 800px;
+  border: 3px solid black;
+  border-radius: 100px;
+}
+.musicinput button {
+  border-radius: 100px;
+  border: 3px solid black;
+}
+#songs {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 56px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: "Fredericka the Great", cursive;
+}
+#songs article {
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 40px;
+  color: black;
+  width: 303px;
+  height: 303px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+#songs article img {
+  margin-top: 23px;
+  border-radius: 10px;
+}
+#songs article h4 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 10px;
+}
+.movies {
+  margin-top: 77px;
+  margin-left: 550px;
+  margin-right: 550px;
+
+  height: 400px;
+}
+.movies p {
+  margin: 30px;
+  font-size: x-large;
+}
+.movies h2 {
+  margin-top: -30px;
+}
+.cinema-page p {
+  font-size: x-large;
+}
+.testoCinema {
+  font-size: medium;
+  margin-top: 77px;
+}
+
+.testoCinema + input {
+  width: 200px;
+  border: 3px solid black;
+}
+input + button {
+  border: 3px solid black !important;
+  margin-left: 3px;
+}
+.regole {
+  position: absolute;
+  margin-top: -30px;
+  width: 200px;
+  font-size: xx-large;
+  color: #fff;
+  margin-left: 100px;
+}
+#songs {
+  gap: 1px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .authenticated {
+    width: 212vw;
+  }
+  .creapost {
+  }
+  .imgpc {
+    margin-left: 31px;
+    margin-top: 5px;
+  }
+  .post {
+    border: 1px solid black;
+    margin-left: 237px;
+    margin-right: 318px;
+    width: 439px;
+    margin-top: 21px;
+    border-radius: 23px;
+  }
+  .post + div {
+    contain: content;
+  }
+  .youtube {
+  }
+  .ytp-large-play-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 68px;
+    height: 48px;
+    margin-left: -4px;
+    margin-top: -24px;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 1500px) {
+  .creapost {
+    text-align: center;
+    font-family: "Fredericka the Great", cursive;
+    color: BLACK;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 1px solid black;
+    margin-top: 61px;
+  }
+  .post {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .posted {
+    align-items: center;
+    text-align: center;
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .post {
+    width: 598px;
+
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .divcampiinput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgpc {
+    margin-left: 155px;
+    margin-top: 15px;
+    /* margin-top: 5px; */
+  }
+  .messaggio.sistema {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .chat-component h2 {
+    font-size: xxx-large;
+  }
+  .messaggio.utente {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .chat-component input {
+    margin-right: 0px;
+  }
+  .messaggi-container {
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+  .regole {
+    margin-top: 0px;
+
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+    margin-left: 0px;
+  }
+  .movies {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .cinema-page p {
+    margin-top: 0px;
+    font-size: x-large;
+  }
+  .cinema-page {
+    background-image: none;
+  }
+  .movies h2 {
+    margin-top: 0px;
+  }
+  .regole {
+    position: unset;
+    min-width: 343px;
+    margin-top: 25px;
+  }
+}
+
+.divcampiinput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgpc {
+  margin-left: 155px;
+  margin-top: 15px;
+  /* margin-top: 5px; */
+}
+.chat-component button {
+  border: 1px solid #00000042;
+  border-radius: 28px;
+  width: 116px;
+  height: 40px;
+  background-color: #66666647 !important;
+}
+.chat-component {
+  background-color: white;
+  text-align: center;
+
+  min-height: 120vw;
+
+  color: black;
+}
+.cinema-page {
+  min-height: 280vw;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position-y: 67px;
+}
+.musicinput {
+  margin-left: 13px;
+  margin-right: 13px;
+}
+.testoCinema {
+  margin-top: 54px;
+}
+.movies h2 {
+  color: white;
+  margin-top: 44px;
+}
+@media screen and (min-width: 1200px) {
+  .movies {
+    margin-left: 230px;
+    margin-right: 230px;
+  }
+  .cinema-page {
+    min-height: 205vw;
+    background-image: url(./Free-Silent-Film-Text-Card-Background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position-y: 67px;
+  }
+}
+.creapost {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.post {
+  width: 830px;
+}
+.authenticated {
+  min-width: 833px;
+}
+@media screen and (min-width: 0px) and (min-width: 1600px) {
+  .post {
+    width: unset;
+  }
+  .testoCinema {
+    margin-top: 30px;
+  }
+  .cinema-page {
+    background-position-y: 15px;
+  }
+}
+.nav {
+  text-decoration: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a.nav-link:hover {
+  color: red;
+}

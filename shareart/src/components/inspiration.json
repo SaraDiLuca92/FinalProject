@@ -1,0 +1,44 @@
+{
+  "colori_artisti": [
+    {
+      "artista": "Michael Jackson",
+      "immagine": "https://i.pinimg.com/originals/24/2e/65/242e653267195763c55fe2f0f6a04c36.png",
+      "frase": "La gente mi chiede come faccio musica.Gli dico che entro in essa.E’ come entrare in un fiume e unirsi al flusso.Ogni momento nel fiume ha la sua canzone. Così io resto nel momento e ascolto.Vado a cercare la mia stella finché non la trovo. È nascosta nel cassetto dell’innocenza, avvolto in una sciarpa di meraviglia.Ogni canzone è un bambino che nutro e a cui do il mio amore. E anche se non hai mai scritto una canzone, la tua vita è una canzone."
+    },
+    {
+      "artista": "Andy Warhol",
+      "immagine": "https://images.squarespace-cdn.com/content/v1/6227c24e70e8937f8e629a48/44a443e0-dc7d-4cde-b78a-a0f37f670a8d/Warhol+Green.png",
+      "frase": "La cosa migliore di una fotografia è che non cambia mai, anche quando le persone in essa lo fanno."
+    },
+    {
+      "artista": "Frida Kahlo",
+      "immagine": "https://www.kindpng.com/picc/m/167-1671930_frida-kahlo-png-frida-png-transparent-png.png",
+      "frase": "Che farei io senza l’assurdo? La rivoluzione è l’armonia della forma e del colore e tutto esiste, e si muove, sotto una sola legge:la vita. "
+    },
+    {
+      "artista": "John Lennon",
+      "immagine": "https://www.rollingstone.it/wp-content/uploads/2020/10/John-Lennon-by-David-Nutter-1969-%C2%A9-Yoko-Ono-1200x630.jpg",
+      "frase": "Se essere egocentrico significa credere in ciò che faccio e nella mia arte o nella mia musica, allora sotto quell’aspetto puoi chiamarmi così… Io credo in quello che faccio, e lo dico. "
+    },
+    {
+      "artista": "Bob Dylan",
+      "immagine": "https://www.macitynet.it/wp-content/uploads/2016/10/Bob-Dylan.jpg",
+      "frase": "Cartelloni pubblicitari ti inducono a pensare che tu sei quello che può fare ciò che non è mai stato fatto, che può vincere ciò che non è mai stato vinto e intanto la vita fuori va avanti senza di te."
+    },
+    {
+      "artista": "Elvis Presley",
+      "immagine": "https://veneratomaestrooppure.files.wordpress.com/2021/08/elvis-presley.jpg",
+      "frase": "Fai qualcosa che valga la pena ricordare."
+    },
+    {
+      "artista": "Yungblud",
+      "immagine": "https://www.rollingstone.it/wp-content/uploads/2019/02/YungBlud-intervista.jpg",
+      "frase": "We are so distracted and focused on what's next, we can fail to see what is actually in front of us."
+    },
+    {
+      "artista": "Jared Leto",
+      "immagine": "https://pbs.twimg.com/media/FDUzSTbUUAAEkjZ?format=jpg&name=4096x4096",
+      "frase": "Non seguire un sentiero, createne uno tuo."
+    }
+  ]
+}
