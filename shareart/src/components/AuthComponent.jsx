@@ -71,13 +71,13 @@ const AuthComponent = () => {
           handleLogin(username, password);
         } else {
           // Gestisci errori durante la registrazione
-          console.log("Errore durante la registrazione");
+
           alert("Errore durante la registrazione. Riprova.");
         }
       })
       .catch((error) => {
         // Gestisci errori della chiamata API
-        console.log("Errore di rete durante la registrazione");
+
         alert("Errore di rete durante la registrazione. Riprova.");
       });
   };
@@ -99,13 +99,13 @@ const AuthComponent = () => {
           setPostUsername(username); // Imposta l'id dell'utente corrente
         } else {
           // Gestisci errori durante il login
-          console.log("Credenziali di accesso non valide");
+
           alert("Credenziali di accesso non valide. Riprova.");
         }
       })
       .catch((error) => {
         // Gestisci errori della chiamata API
-        console.log("Errore di rete durante il login");
+
         alert("Errore di rete durante il login. Riprova.");
       });
   };
@@ -191,7 +191,6 @@ const AuthComponent = () => {
 
     // Controlla se la descrizione contiene parole da filtrare
     if (regex.test(description)) {
-      console.log("Errore: il post contiene parole inopportune");
       alert(
         "Errore: il post non può essere inviato perché contiene parole inopportune."
       );
@@ -251,8 +250,6 @@ const AuthComponent = () => {
         alert("Errore di rete durante la creazione del post. Riprova.");
       });
   };
-
-  // Resto del codice per la creazione del post...
 
   if (isAuthenticated) {
     return (
@@ -390,7 +387,7 @@ const AuthComponent = () => {
               .sort((a, b) => b.id - a.id)
               .map((post) => (
                 <div className="post" key={post.id}>
-                  {/* Renderizzazione dei post */}
+                  {}
                   <h3>{post.username}</h3>
                   <p onContextMenu={handleContextMenu}>{post.description}</p>
                   {post.img && post.img.includes("youtube") && (
@@ -415,8 +412,7 @@ const AuthComponent = () => {
                       />
                     </div>
                   )}
-                  <CommentArea postId={post.id} />{" "}
-                  {/* Passa l'id del post come prop */}
+                  <CommentArea postId={post.id} /> {}
                 </div>
               ))}
         </div>

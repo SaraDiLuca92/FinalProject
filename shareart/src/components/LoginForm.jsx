@@ -7,7 +7,7 @@ const LoginForm = ({ onLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Esegui la funzione di login passando i dati del form
+
     onLogin(username, password, id);
   };
 

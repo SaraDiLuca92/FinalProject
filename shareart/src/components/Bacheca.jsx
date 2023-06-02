@@ -29,7 +29,7 @@ const Bacheca = () => {
       }
     } catch (error) {
       console.error(error);
-      // Gestisci l'errore di connessione o altre eccezioni
+      // errore di connessione o altre eccezioni
       setResponseMessage("Si è verificato un errore durante la richiesta");
     }
   };

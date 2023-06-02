@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
-import ProfilePage from "./components/a parte/ProfilePage";
 import AuthComponent from "./components/AuthComponent";
 import InspirationPage from "./components/InspirationPage";
 import CinemaPage from "./components/CinemaPage";

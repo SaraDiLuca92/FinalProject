@@ -11,11 +11,10 @@ const PostForm = ({ username }) => {
       description,
       img: imageUrl,
       user: {
-        id: 1, // L'id dello user corrispondente a quello loggato
+        id: 1,
       },
     };
 
-    // Effettua la richiesta POST all'API
     fetch("http://localhost:9099/api/posts/", {
       method: "POST",
       headers: {
@@ -25,12 +24,9 @@ const PostForm = ({ username }) => {
     })
       .then((response) => response.json())
       .then((data) => {
-        // Gestisci la risposta dell'API
         console.log("Post creato:", data);
-        // Esegui eventuali azioni aggiuntive dopo aver creato il post
       })
       .catch((error) => {
-        // Gestisci errori durante la chiamata all'API
         console.error("Errore durante la creazione del post:", error);
       });
   };

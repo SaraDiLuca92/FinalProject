@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 const CommentArea = ({ postId }) => {
-  // Aggiungi la prop postId per identificare il post associato ai commenti
   const [comment, setComment] = useState("");
   const [comments, setComments] = useState([]);
 

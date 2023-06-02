@@ -13,7 +13,6 @@ const PostComments = ({ postId, comments, handleComment }) => {
       },
     };
 
-    // Effettua la chiamata API per l'aggiunta del commento
     fetch("http://localhost:9099/api/comments/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -24,8 +23,6 @@ const PostComments = ({ postId, comments, handleComment }) => {
           console.log("Commento aggiunto con successo");
           alert("Commento aggiunto con successo.");
 
-          // Chiama la funzione handleComment definita nel componente genitore (AuthComponent)
-          // Passa l'id del post e il nuovo commento
           handleComment(postId, comment);
 
           setComment(""); // Pulisci il campo di input del commento
